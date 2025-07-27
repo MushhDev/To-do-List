@@ -34,12 +34,6 @@ To-do-List/
 - 📱 **Diseño responsive**: Optimizado para escritorio, tablets y móviles.
 - 🔒 **Seguridad**: Control de sesiones y validación en cada acción importante.
 
-## ⚙️ Requisitos del sistema
-
-- Servidor web (como Apache o Nginx) con PHP 7.4 o superior.
-- Permisos de escritura en la carpeta `data/usuarios/`.
-- Navegador moderno con soporte para HTML5, CSS3 y JavaScript.
-
 ## 🛠️ Desarrollo
 
 Puedes contribuir al desarrollo del proyecto:
