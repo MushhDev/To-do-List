@@ -61,5 +61,3 @@ Licenciado bajo MIT. Consulta el archivo `LICENSE` para detalles.
 Para dudas o soporte, abre un issue en el repositorio o contacta directamente.
 
 **To-do List** — Organiza tu día a día con estilo y sencillez desde cualquier navegador.
-
-```
