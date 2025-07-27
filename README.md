@@ -1,63 +1,60 @@
-# To-do List 📝✅
+# ✅ To-do List · Gestión inteligente de tus tareas y notas
 
-Aplicación web ligera y moderna para gestionar tus notas, tareas y colaboradores, con almacenamiento local en archivos JSON.
+**To-do List** es una aplicación web ligera, moderna y segura para ayudarte a gestionar tus tareas, notas y colaboradores de forma simple y eficiente. Todo se almacena en archivos JSON por usuario, sin necesidad de base de datos.
 
-## 📂 Estructura del Proyecto
-
+## 📁 Estructura del Proyecto
 ```
 To-do-List/
-├── data/                   # Carpeta donde se almacenan los datos JSON por usuario
+├── data/
 │   └── usuarios/
-│       └── [usuario]/
+│       └── \[usuario]/
 │           ├── notas.json           # Notas personales
 │           ├── tareas.json          # Tareas con fechas y alertas
-│           └── colaboradores.json   # Usuarios colaboradores y permisos
-├── index.php               # Página de inicio y login
-├── panel.php               # Panel principal de usuario
-├── notas.php               # Gestión de notas
-├── tareas.php              # Gestión de tareas
-├── colaboradores.php       # Gestión de colaboradores
-├── configuracion.php       # Configuración del usuario
+│           └── colaboradores.json   # Lista de colaboradores y permisos
+├── index.php               # Página de inicio y login/registro
+├── panel.php               # Panel principal del usuario
+├── notas.php               # Editor de notas
+├── tareas.php              # Gestión de tareas y alertas
+├── colaboradores.php       # Gestión de colaboradores y permisos
+├── configuracion.php       # Ajustes del usuario
 └── README.md               # Documentación del proyecto
-````
+```
+## 🚀 ¿Cómo usarlo?
 
-## 🚀 Despliegue
-
-1. **Sube los archivos al servidor web con PHP (7.4+)**.
-2. Asegúrate que la carpeta `/data/usuarios/` tenga permisos de escritura para que la app pueda guardar los datos.
-3. Abre la URL en el navegador, crea tu usuario y empieza a gestionar tus notas y tareas.
-
-*No requiere base de datos ni instalación local.*
+1. Abre la web desde tu navegador favorito.
+2. Regístrate o inicia sesión.
+3. Comienza a crear tareas, tomar notas y gestionar tus proyectos fácilmente.
 
 ## ✨ Funcionalidades principales
 
-* 🗒️ Notas personales con títulos y contenido.
-* ✅ Tareas con fechas límite y alertas programadas.
-* 👥 Gestión de colaboradores con permisos para ver y editar.
-* 🗃️ Datos almacenados en JSON, fáciles de mantener y respaldar.
-* 📱 Interfaz responsive y moderna, adaptada a móviles y escritorio.
-* 🔒 Control de acceso mediante sesiones PHP seguras.
+- 🗒️ **Notas**: Guarda ideas, apuntes o recordatorios con título y contenido.
+- ✅ **Tareas**: Crea tareas con fechas límite y alertas visuales.
+- 👥 **Colaboradores**: Agrega usuarios con permisos personalizados para ver o editar tus notas y tareas.
+- 📂 **Datos en JSON**: Cada usuario tiene su propio almacenamiento en archivos JSON (sin bases de datos).
+- 📱 **Diseño responsive**: Optimizado para escritorio, tablets y móviles.
+- 🔒 **Seguridad**: Control de sesiones y validación en cada acción importante.
 
-## 🔧 Requisitos
+## ⚙️ Requisitos del sistema
 
-* Servidor web con soporte PHP 7.4 o superior.
-* Permisos de escritura en la carpeta `data/usuarios/`.
-* Navegador actualizado con soporte para JavaScript.
+- Servidor web (como Apache o Nginx) con PHP 7.4 o superior.
+- Permisos de escritura en la carpeta `data/usuarios/`.
+- Navegador moderno con soporte para HTML5, CSS3 y JavaScript.
 
+## 🛠️ Desarrollo
 
-## 🤝 Contribuciones
+Puedes contribuir al desarrollo del proyecto:
 
-Si deseas contribuir, puedes:
-
-* Reportar errores o sugerencias mediante issues.
-* Enviar pull requests con mejoras o nuevas funcionalidades.
+- Informando de bugs o ideas mediante [issues](https://github.com/To-do-List/issues)
+- Enviando Pull Requests con nuevas características o mejoras
+- Sugerencias sobre el diseño, UX o nuevas vistas
 
 ## 📄 Licencia
 
-Licenciado bajo MIT. Consulta el archivo `LICENSE` para detalles.
+Este proyecto está licenciado bajo la licencia **MIT**. Consulta el archivo `LICENSE` para más detalles.
 
 ## 📬 Contacto
 
-Para dudas o soporte, abre un issue en el repositorio o contacta directamente.
+¿Tienes dudas o necesitas soporte?  
+Crea un issue o contáctanos directamente.
 
-**To-do List** — Organiza tu día a día con estilo y sencillez desde cualquier navegador.
+> **To-do List** – Organiza tu vida con estilo, simplicidad y control total desde cualquier dispositivo.
